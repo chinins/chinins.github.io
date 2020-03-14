@@ -4,7 +4,6 @@ export const LinkListItem = props => {
   const {
     link: { href, label }
   } = props;
-  console.log("href: ", href);
 
   return (
     <li>
